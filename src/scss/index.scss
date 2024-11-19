@@ -1,0 +1,42 @@
+@import './cdn';
+@import './variables';
+@import './mixin';
+@import './header.scss';
+@import './cv-content.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: $_orange-light;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 1200px) {
+        max-width: 970px;
+    }
+    @media (max-width: 1024px) {
+        max-width: 984px;
+    }
+    @media (max-width: 992px) {
+        max-width: 750px;
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+@mixin title {
+    font-size: $_title;
+    color: $_black;
+    font-weight: 700;
+}
+
+@mixin subtitle {
+    font-size: $_subtitle;
+    color: $_black;
+    font-weight: 700;
+
+}
+
+@mixin text {
+    font-size: $_text;
+    color: $_black;
+    font-weight: 400;
+}
+
+@mixin icon {
+    font-size: $_text;
+    color: $_black;
+}

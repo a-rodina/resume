@@ -2,6 +2,7 @@
     font-size: $_title;
     color: $_black;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 @mixin subtitle {

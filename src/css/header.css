@@ -116,4 +116,8 @@
     .header__info-block {
         width: 100%;
     }
+
+    .header__image-block {
+        margin-bottom: 20px;
+    }
 }

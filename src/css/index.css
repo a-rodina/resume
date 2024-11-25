@@ -1,8 +1,6 @@
-@import './cdn';
-@import './variables';
-@import './mixin';
-@import './header.scss';
-@import './cv-content.scss';
+@import url(./cdn.css);
+@import url(./header.css);
+@import url(./cv-content.css);
 
 * {
     margin: 0;
@@ -17,7 +15,7 @@ html {
 }
 
 body {
-    background-color: $_orange-light;
+    background-color: #f7f3ee;
 }
 
 .container {
@@ -26,17 +24,25 @@ body {
     margin: auto;
     position: relative;
     z-index: 2;
+}
 
-    @media (max-width: 1200px) {
+@media (max-width: 1200px) {
+    .container {
         max-width: 970px;
     }
-    @media (max-width: 1024px) {
+}
+@media (max-width: 1024px) {
+    .container { 
         max-width: 984px;
     }
-    @media (max-width: 992px) {
+}
+@media (max-width: 992px) {
+    .container { 
         max-width: 750px;
     }
-    @media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+    .container {
         width: 100%;
     }
 }
